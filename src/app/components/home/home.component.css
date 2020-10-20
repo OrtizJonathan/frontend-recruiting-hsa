@@ -1,0 +1,54 @@
+.home{
+    height: 100%;
+    width: 100%;
+}
+
+.title-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 60px;
+    flex-direction: column;
+    margin: 30vh;
+}
+
+.title {
+    margin: 0%;
+    height: 81px;
+}
+
+.github {
+    font-family: monospace;
+}
+
+.search-title {
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    width: 650px;
+    height: 50px;
+    font-family: Raleway;
+    font-size: 20px;
+}
+
+.boton_personalizado{
+    width: 100px;
+    height: 54px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: darkorchid;
+}
+
+.boton_personalizado:hover{
+    color: darkorchid;
+    background-color: darksalmon;
+}

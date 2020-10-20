@@ -1,0 +1,65 @@
+.content-left {
+    float: left;
+    width: 375px;
+    margin: 5px 50px 0 28px;
+}
+
+.title {
+    display:inline-block;
+    font-size: 40px;
+    padding: 0 50px 20px 25px;
+    width: 375px;
+}
+
+.github {
+    font-family: monospace;
+    width: 280px;
+    height: 50px;
+    font-size: 50px;
+}
+
+.search {
+    font-style: italic;
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+.photo {
+    width: 280px;
+    height: 280px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: beige;
+}
+
+.username {
+    width: 280px;
+    height: 40px;
+    font-size: 35px;
+    font-weight: 300;
+    color: #000000; 
+}
+
+.login {
+    font-size: 20px;
+}
+
+.email {
+    font-size: 20px;
+    height: 20px;
+}
+
+.bio {
+    font-size: 20px;
+}
+
+.icon-container {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

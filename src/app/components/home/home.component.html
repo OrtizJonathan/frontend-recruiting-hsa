@@ -1,0 +1,15 @@
+<div class="home">
+    <div routerLinkActive="active" class="title-home">
+        <p class="title"><span class="github">Github</span><span class="search-title">Search</span></p>
+        <form [formGroup]="angForm" (ngSubmit)="onContinue()" novalidate>
+            <div class="form-group">
+                <div class="search-container">
+                    <input class="search" formControlName="nom" placeholder="Ej. IamBatman"/>
+                    <button class="boton_personalizado" [disabled]="!angForm.valid" type="submit">
+                        <img src="../../assets/icons/search-icon.png">
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

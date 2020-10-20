@@ -1,0 +1,30 @@
+<div class="content-left">
+  <div *ngIf="userDetails">
+    <p class="title"><span class="github">Github</span><span class="search">Search</span></p>
+    <img [src]="userDetails.avatar_url" class="photo">
+    <p class="username">{{ userDetails.name }}</p>
+    <p class="login">{{ userDetails.login }}</p>
+    <p class="email">{{ userDetails.email }}</p>
+    <p class="bio">{{ userDetails.bio }}</p>
+    <div class="icon-container">
+      <img src="../../../assets/icons/organization-icon.png" class="icon">
+      <span>{{ userDetails.company }}</span>
+    </div>
+    <div class="icon-container">
+      <img src="../../../assets/icons/location-icon.png" class="icon">
+      <span>{{ userDetails.location }}</span>
+    </div>
+    <div class="icon-container">
+      <img src="../../../assets/icons/star-icon.png" class="icon">
+      <span></span>
+    </div>
+    <div class="icon-container">
+        <img src="../../../assets/icons/repositorie-icon.png" class="icon">
+        <span>{{ userDetails.public_repos }}</span>
+    </div>
+    <div class="icon-container">
+        <img src="../../../assets/icons/followers-icon.png" class="icon">
+        <span>{{ userDetails.followers }}</span>
+    </div>
+  </div>
+</div>
